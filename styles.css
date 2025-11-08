@@ -1,0 +1,102 @@
+body{
+    padding: 40px;
+    margin: 40px 0 0 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    background: black;
+    color: white;
+}
+
+.card{
+    border: 1px solid rebeccapurple;
+    padding: 20px;
+    border-radius: 18px;
+}
+
+.card p{
+    border-bottom: 1px solid rebeccapurple;
+}
+
+.btnDiv{
+    text-align: center;
+}
+
+.btnDiv button{
+    font-size: 18px;
+    padding: 8px 18px 8px 18px;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: absolute; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+    text-align: center;
+    color: rgb(210, 9, 9);
+    border-radius: 18px;
+}
+
+.modal-content 
+
+.close-button {
+    color: #292929;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+#alertOkButton {
+    width: 100px;
+    padding: 8px 18px;
+    font-size: 18px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 8px;
+    transition: 
+        transform 0.2s ease-in-out,
+        background-color 0.3s ease,
+        color 0.3s ease,
+        border 0.3s ease;
+}
+
+#alertOkButton:hover {
+    animation: heartbeat 1s infinite;
+    cursor: pointer;
+    border: none;
+    color: white;
+    background-color: black;
+}
+
+@keyframes heartbeat {
+    0% {
+        transform: scale(1);
+    }
+    25% {
+        transform: scale(1.1);
+    }
+    40% {
+        transform: scale(0.95);
+    }
+    60% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
